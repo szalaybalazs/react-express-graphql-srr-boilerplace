@@ -1,0 +1,29 @@
+scalar JSON
+scalar Date
+scalar Time
+scalar DateTime
+
+enum ActionType {
+  CREATE
+  EDIT
+  REMOVE
+}
+
+type Query {
+  lol: Int
+}
+
+type Mutation {
+  lol: Int
+}
+
+type Subscription {
+  """Removing warning for empty clause"""
+  lol: Int
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}
