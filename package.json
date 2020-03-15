@@ -1,5 +1,5 @@
 {
-  "name": "boilerplace",
+  "name": "boilerplate",
   "version": "1.0.0",
   "main": "server/index.js",
   "author": "Balázs Szalay <szalay.balazs.ms@gmail.com>",
@@ -10,10 +10,10 @@
     "client:watch": "webpack --watch --mode=development --production",
     "client:build": "webpack --mode=production -p",
     "client": "webpack",
-    "server:watch": "NODE_ENV=development DEBUG=boilerplace nodemon server/index -e js,html,gql",
+    "server:watch": "NODE_ENV=development DEBUG=boilerplate nodemon server/index -e js,html,gql",
     "server:production": "NODE_ENV=production node server/index",
     "server:dummy": "node server/dummy",
-    "svg:create": "svgr --ref --memo --keep-existing -d client/js/icons/ client/assets/",
+    "svg:create": "svgr --ref --memo --keep-existing -d client/js/icons/ client/assets/"
   },
   "browserslist": "last 10 versions",
   "dependencies": {

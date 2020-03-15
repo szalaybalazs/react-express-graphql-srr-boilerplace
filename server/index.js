@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const http = require('http').createServer(app);
 const bodyParser = require('body-parser');
-const debug = require('debug')('boilerplace');
+const debug = require('debug')('boilerplate');
 const expressStaticGzip = require('express-static-gzip');
 const path = require('path');
 

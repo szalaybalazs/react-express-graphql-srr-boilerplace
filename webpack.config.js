@@ -96,7 +96,7 @@ module.exports = {
         NODE_ENV: JSON.stringify(isProduction ? 'production' : 'development'),
         S3_BUCKET_NAME: JSON.stringify(process.env.S3_BUCKET_NAME),
         PORT: process.env.PORT || 5555,
-        STATIC: JSON.stringify(process.env.STATIC || 'https://static.boilerplace.hu/'),
+        STATIC: JSON.stringify(process.env.STATIC || 'https://static.boilerplate.hu/'),
         VERSION: JSON.stringify(process.env.VERSION),
         NOT_FOUND_PATH: JSON.stringify(require('./config').noSchoolPath),
       },
