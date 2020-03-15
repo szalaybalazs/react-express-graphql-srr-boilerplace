@@ -41,7 +41,7 @@ module.exports = (Router, passport) => {
     secret: process.env.SECRET || 'keyboard cat',
     resave: false,
     saveUninitialized: false,
-    cookie: { maxAge: 30 * 24 * 60 * 60 * 1000, domain: process.env.DOMAIN || '.elisa.hu' },
+    cookie: { maxAge: 30 * 24 * 60 * 60 * 1000, domain: process.env.DOMAIN || '.boilerplace.hu' },
     store: new MongoDBStore({
       uri: process.env.DB_URI,
     }),

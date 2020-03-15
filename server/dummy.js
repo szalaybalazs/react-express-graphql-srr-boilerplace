@@ -207,7 +207,7 @@ mongoose.connection.on('open', () => {
     });
 
     // await Promise.all(new Array(500).fill(null).map((_, i) => User.create({
-    //     email: 'student@elisa.hu',
+    //     email: 'student@boilerplace.hu',
     //     firstName: 'Student',
     //     lastName: 'User',
     //     middleName: i,
@@ -221,7 +221,7 @@ mongoose.connection.on('open', () => {
     //     }
     //   })));
     const student = await User.create({
-      email: 'student@elisa.hu',
+      email: 'student@boilerplace.hu',
       firstName: 'Student',
       lastName: 'User',
       password: 'hello',
@@ -236,7 +236,7 @@ mongoose.connection.on('open', () => {
 
 
     await User.create({
-      email: 'admin@elisa.hu',
+      email: 'admin@boilerplace.hu',
       firstName: 'Admin',
       lastName: 'User',
       password: 'admin',
@@ -261,7 +261,7 @@ mongoose.connection.on('open', () => {
     })
     
     // const emma = await User.create({
-    //   email: 'emma@elisa.hu',
+    //   email: 'emma@boilerplace.hu',
     //   firstName: 'Molnár-Szabó',
     //   lastName: 'Emma',
     //   password: 'rombusz',
@@ -276,7 +276,7 @@ mongoose.connection.on('open', () => {
     // })
 
     const test = await User.create({
-      email: 'test@elisa.hu',
+      email: 'test@boilerplace.hu',
       firstName: 'Teszt',
       lastName: 'Elek',
       password: 'rombusz',
@@ -291,7 +291,7 @@ mongoose.connection.on('open', () => {
     })
 
     const teacher = await User.create({
-      email: 'teacher@elisa.hu',
+      email: 'teacher@boilerplace.hu',
       firstName: 'Teacher',
       lastName: 'User',
       password: 'hello',
